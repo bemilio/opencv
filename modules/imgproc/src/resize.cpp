@@ -3839,11 +3839,11 @@ void resize(int src_type,
         return;
     }
 
-    if( interpolation == INTER_NEAREST_EXACT )
-    {
-        resizeNN_bitexact( src, dst, inv_scale_x, inv_scale_y );
-        return;
-    }
+//     if( interpolation == INTER_NEAREST_EXACT )
+//     {
+//         resizeNN_bitexact( src, dst, inv_scale_x, inv_scale_y );
+//         return;
+//     }
 
     int k, sx, sy, dx, dy;
 
